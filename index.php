@@ -23,6 +23,7 @@ if(isset($_GET['logout'])){
 <div class="logocontainer">
     <h1>ONLINE BEAUTY SUPPLIES</h1>
 </div>
+
 <div class="navbar">
             <ul>       
                 <li> <a href="index.php" class="indexlink"> HOME</a> </li>
