@@ -344,7 +344,7 @@
     <body>
         <div class="verticalnav">
             <div class="adminlogo">
-                <a href = "admin.php" class = "adminlogo"></a>
+                <a href = "admin.php" class = "adminlogo">#</a>
             </div>
             <ul class="navlist">
                 <li><a href="admin-products.php" class="adminlinks">Products</a></li>
