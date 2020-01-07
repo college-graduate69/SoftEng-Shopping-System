@@ -1,0 +1,392 @@
+/*nav css*/
+body
+{
+    margin:0;
+    padding: 0;
+}
+.logocontainer
+{
+    width:100%;
+    text-align:center;
+}
+.logocontainer h1
+{
+    margin: 75px;
+}
+.navlogo
+{
+    width:15%;
+    text-align:center;
+}
+.navbar
+{
+    text-align:center;
+    margin-bottom:5%;
+}
+.navbar ul
+{
+    font-family:Arial, Helvetica, sans-serif;
+    list-style-type:none;
+    letter-spacing:3px;
+    display:inline;
+    color:black;
+}
+.navbar li
+{
+    display:inline;
+    margin-right:5%;
+}
+.navbar a
+{
+    text-decoration:none;
+    color:black;
+}
+.navbar a:hover
+{
+    color:rgb(228, 143, 157);
+}
+.cartbody
+{
+    background-color:white;
+    widows: 90%;
+    margin-left:10%;
+    margin-right:10%;
+    text-align:center;
+    height:inherit;
+    margin-bottom:10%;
+}
+.cartgrid
+{
+    background-color:white;
+    width:25%;
+    margin:0.5%;
+    border:1px solid black;
+    display:inline-block;
+}
+.cartimg>img
+{
+    width:100%;
+    margin:0 auto;
+    
+}
+.cartname
+{
+    background-color:white;
+}
+.cartname>p
+{
+    margin-top:0;
+    margin-bottom:1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    letter-spacing:2px;
+    padding-top:2%;
+    padding-bottom:2%;
+}
+.cartqty
+{
+    background-color:white;
+}
+.cartqty>p
+{
+    margin-top:0;
+    margin-bottom:1%;
+    font-size: 17px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.cartprice
+{
+    background-color:white;
+}
+.cartprice>p
+{
+    margin-top:0;
+    margin-bottom:0;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-bottom:1%;
+    font-size: 16px;
+    color:rgb(15, 114, 15);
+    font-weight:bold;
+}
+.cartremove
+{
+    background-color:white;
+    width:100%;
+}
+.cartremove>a
+{
+    width:100%;
+    display:block;
+    margin-bottom:0;
+    padding-top:3%;
+    padding-bottom:3%;
+    border:none;
+    background-color:rgb(199, 12, 12);
+    color:white;
+    font-size:15px;
+    letter-spacing:2px;
+    font-weight:bold;
+    cursor:pointer;
+}
+.cartremove>a:hover
+{
+    opacity:0.8;
+    text-decoration:none;
+}
+.cartheader
+{
+    margin-left:10%;
+    margin-right:10%;
+    width:80%;
+    text-align:center;
+    margin-bottom:3%;
+}
+
+.carttitle>h1
+{
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing:4px;
+    font-weight:bold;
+    color:rgb(73, 73, 73);
+}
+.cartcheckout
+{
+    margin-left:10%;
+    margin-right:10%;
+    width:80%;
+    text-align:right;
+    background-color:white;
+    margin-bottom:10%;
+}
+.cartcheck, .cartback
+{
+    background-color:white;
+    width:38%;
+    margin-left:60%;
+    margin-right:0;
+}
+.cartcheck>button
+{
+    width:100%;
+    border: none;
+    padding-top:3%;
+    padding-bottom:3%;
+    border-radius:20px;
+    cursor:pointer;
+    font-size:20px;
+    color:white;
+    font-weight:bold;
+    margin-bottom:2%;
+}
+.cartback>a
+{
+    color:black;
+    font-size:18px;
+}
+.cartback>a:focus
+{
+    outline:none;
+}
+.cartcheck>button
+{
+    background-color:rgb(68, 209, 122);
+}
+.cartcheck>button:hover, .cartback>a:hover
+{
+    opacity:0.8;
+}
+.cartcheck>button:focus
+{
+    outline:none;
+}
+/*cart modal*/
+.modalclose
+{
+    margin:2%;
+    padding:0;
+}
+.modalclose>button:focus
+{
+    outline:none;
+}
+.cartmodalheader
+{
+    letter-spacing:2px;
+    color: rgb(20, 216, 95);
+}
+.cartmodalform
+{
+    margin-left:3%;
+    margin-right:3%;
+}
+.paymetlabel, .inputpay
+{
+    display:inline-block;
+}
+.inputpay
+{
+    margin-left:2%;
+}
+.modaddlabel, .addressinput
+{
+    display:inline-block;
+}
+.addressinput
+{
+    margin-left:2%;
+}
+.addressinput>input
+{
+    border:none;
+    border-bottom:1px solid black;
+    width:500px;
+}
+.addressinput>input:focus
+{
+    outline-color:rgb(6, 211, 132);
+    border-bottom:1px solid rgb(6, 211, 132);
+}
+.modal-footer>input, .modal-footer>button
+{
+    cursor:pointer;
+}
+.modal-footer
+{
+    margin-bottom:5%;
+}
+.carttotalprice
+{
+    color:rgb(6, 211, 132);
+}
+.modaltxtcart
+{
+    text-align:center;
+}
+.badge
+{
+    background-color:palevioletred;
+    padding:5px;
+    padding-left:7px;
+    padding-right:7px;
+    margin:auto;
+    text-align:center;
+    color:white;
+    border-radius:25px;
+    font-weight:bold;
+}
+/*footer css*/
+.footer
+{
+    background-color:black;
+    width:100%;
+    margin-top:10%;
+    height:300px;
+    display:block;
+    margin:0;
+    text-align:center;
+}
+.footercontent
+{
+    width:90%;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:10%;
+}
+.ft1, .ft2, .ft3
+{
+    color:white;
+    background-color:black;
+    width:25%;
+    margin-top:4%;
+    height:200px;
+    display: inline-block;
+    text-align:left;
+}
+.ft3
+{
+    margin-left:5%;
+}
+
+.ft1, .ft3
+{
+    float:left;
+}
+.ft1>h4
+{
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing:2px;
+    margin-left:1.2%;
+}
+.fblink
+{
+    border-bottom:1px solid white;
+    padding-bottom:5%;
+}
+.fblink>a
+{
+    display:inline-block;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    text-decoration:none;
+    font-size:12px;
+    margin-top:3%;
+    margin-left:2%;
+}
+.fblink>a:hover
+{
+    text-decoration:underline;
+}
+.fblink>img
+{
+    width:10%;
+    float:left;
+}
+.footlogreg
+{
+
+    margin-top:5%;
+    margin-bottom:5%;
+}
+.footlog, .footreg
+{
+    display:inline-block;
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+    border:1px solid white;
+    border-radius:25px;
+    padding-top:2%;
+    padding-bottom:2%;
+    padding-left:5%;
+    padding-right:5%;
+    text-align:center;
+}
+.footlog:hover, .footreg:hover
+{
+    background-color:white;
+    color:black;
+}
+.navlistfoot>ul
+{
+    list-style-type:none;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing:2px;
+}
+.navlistfoot>ul>a, .navlistfoot>ul>li
+{
+    color:white;
+    text-decoration:none;
+    line-height:30px;
+}
+.fthelphead
+{
+    font-weight:normal;
+    letter-spacing:2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cntctlink
+{
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:12px;
+    letter-spacing:2px;
+}

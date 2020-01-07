@@ -1,0 +1,816 @@
+body,html
+{
+    margin:0;
+    padding:0;
+    background-color:white;
+    height: 100%;
+
+}
+.navlist
+{
+    list-style-type:none;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top:0;
+    padding-left:0;
+    
+}
+.navlist>li
+{
+    padding-top:7%;
+    padding-bottom:7%;
+    text-align:center;
+    padding-right:6%;
+}
+.verticalnav
+{
+    background-color:pink;
+    float:left;
+    width: 20%;
+    margin-top:0;
+    padding-bottom:2%;
+    height:100%;
+    overflow:hidden;
+    position:fixed;
+}
+.adminlinks
+{
+    color:rgb(165, 51, 76);
+    text-decoration:none;
+    letter-spacing:2px;
+}
+.adminlinks:hover
+{
+    color:white;
+}
+.adminlogo>img
+{
+    width:100%;
+}
+
+.content-product {
+    float: left;
+    padding-top: 5%;
+    padding-left: 4%;
+    height: inherit;
+}
+
+.product-links {
+    text-decoration: none;
+    color: black;
+    font-size: 3rem;
+    display: block;
+    margin-bottom: 25%;
+}
+
+.row{
+    float: left;
+}
+
+.img-holder {
+    width: 50%;
+}
+
+/*admin products interface css*/
+.choicecontainer
+{
+    width:80%;
+    margin-top:3%;
+    float:right;
+}
+.prodchoice1
+{
+    background-color:rgb(248, 145, 180);
+    width:25%;
+    height:220px;
+    border-radius:2%;
+    display:inline-block;
+    margin-right:2%;
+    margin-left:2%;
+}
+.prodchoice2
+{
+    background-color:rgb(120, 194, 236);
+    width:25%;
+    height:220px;
+    border-radius:2%;
+    display:inline-block;
+    margin-right:2%;
+    
+}
+.prodchoice3
+{
+    background-color:rgb(255, 213, 97);
+    width:25%;
+    height:220px;
+    border-radius:2%;
+    display:inline-block;
+    margin-right:2%;
+    
+}
+.prodchoice1:hover, .prodchoice2:hover, .prodchoice3:hover
+{
+    opacity:0.8;
+}
+.adminlinks:hover
+{
+    text-decoration:none;
+}
+a
+{
+    text-decoration: none;
+}
+.imgclass
+{
+    width:50%;
+    display:block;
+    margin:auto;
+    margin-top:5%;
+}
+.choicelabel
+{
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    letter-spacing:2px;
+    color:white;
+    margin-top:5%;
+}
+.prodheader
+{
+    background-color:rgb(131, 210, 216);
+    width:80%;
+    height:100px;
+    display:block;
+    float:right;
+}
+.headtxt
+{
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+    font-weight:bold;
+    font-size:50px;
+    display:block;
+    margin-left:3%;
+    margin-top:2%;
+}
+
+
+
+
+/*admin add-products css*/
+.form-holder
+{
+    margin-left:3%;
+    width:70%;
+    display:block;
+    flex:50%;
+    margin-top:2%;
+    background-color:pink;
+    padding-bottom:2%;
+    height:contain;
+    float:right;
+    margin-right:5%;
+    margin-bottom:5%;
+}
+.formheader
+{
+    color:palevioletred;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:25px;
+    padding:3%;
+    background-color:white;
+    margin-bottom:3%;
+    border:3px solid pink;
+    border-bottom:none;
+    letter-spacing:2px;
+}
+.forminput
+{
+    width:40%;
+    float:left;
+    margin-right:4%;
+    margin-left:4%;
+}
+.formimg
+{
+    widows: 50%;
+    float:left;
+}
+.form-holder>h1
+{
+    font-size:45px;
+    font-weight:bolder;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.prodtext
+{
+    width:100%;
+    border:none;
+    color:black;
+    margin-bottom:4%;
+    padding:2%;
+}
+.prodtext2
+{
+    width:47%;  
+    border: none;
+    color:black;
+    margin-bottom:4%;
+    padding-top:1%;
+    padding-bottom:1%;
+    padding:2%;
+}
+.prodtext3
+{
+    width:100%;
+    border:none;
+    height:205px;
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom:3%;
+    padding:2%;
+}
+.imgupbtn
+{
+    margin-bottom:5%;
+}
+.imgprev
+{
+    min-width: 100px;
+    min-height: 100px;
+    max-height: 400px;
+    max-width: 400px;
+    overflow: hidden;
+    border:2px dashed rgb(255, 255, 255);
+}
+.prodsubmit
+{
+    background-color:rgb(116, 219, 96);
+    border:none;
+    padding:3%;
+    width:70%;
+    font-weight:bold;
+    color:white;
+    letter-spacing:2px;
+    font-size:30px;
+    cursor:pointer;
+    border:none;
+    border-radius:15px;
+}
+.prodsubmit:hover
+{
+    opacity:0.8;
+}
+.imginput
+{
+    cursor:pointer;
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+    z-index: -1;
+}
+.imgprevholder {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#imgPrev + label 
+{/*bahala kana dito*/
+    padding:6px;
+    padding-left:12px;
+    padding-right:12px;
+    background: white;
+    cursor: pointer;
+    color:rgb(167, 70, 86);
+    border-radius:10px;
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+#imgPrev:focus + label{
+    background: rgb(167, 70, 86);
+    color:white
+}
+#imgPrev:hover + label{
+    background: rgb(167, 70, 86);
+    color:white
+}
+
+.thisImageHolder {
+    width: 25%;
+}
+
+.thisImage {
+    width: 100%;
+}
+/*inventory css*/
+.thisTable
+{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+    border-collapse:collapse;
+    color:rgb(53, 53, 53);
+    width:80%;
+    float:right;
+}
+.thisTable tr
+{
+    background-color:white;
+}
+.thisTable td
+{
+    border:1px solid rgb(192, 155, 218);
+}
+.thisTable th
+{
+    background-color:rgb(192, 155, 218);
+    color:white;
+    padding:15px;
+}
+.btn-delete
+{
+    border:none;
+    background-color:rgb(209, 31, 31);
+    color:white;
+    font-weight:bold;
+    padding:10px;
+    border-radius:7px;
+}
+.btn-delete:hover, .btn-edit:hover
+{
+    opacity:0.7;
+    cursor:pointer;
+}
+.btn-delete:focus, .btn-edit:focus
+{
+    outline:none;
+}
+.btn-edit
+{
+    border:none;
+    background-color:rgb(77, 226, 144);
+    color:white;
+    font-weight:bold;
+    padding:10px;
+    border-radius:7px;
+}
+.catnames
+{
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(66, 66, 66);
+    font-size:20px;
+    margin-left:5%;
+
+}
+.catlistcontainer
+{
+    display:flex;
+    width:100%;
+    border:2px solid lightblue;
+    border-top:2px solid lightblue;
+    border-bottom:2px solid lightblue;
+    border-collapse:collapse;
+
+}
+.categoryform
+{
+    float:right;
+    width:75%;
+    margin-right:2.5%;
+    margin-top:3%;
+    margin-bottom:3%;
+}
+.catlist
+{
+    float:left;
+    width:40%;
+    margin-top:2%;
+}
+.catactions
+{
+    display:inline-block;
+    margin:auto;
+    margin-right:0;
+    width:20%;
+}
+.cat-input
+{
+    width:100%;
+    margin-bottom:5%;
+}
+.catin{
+    font-family:Arial, Helvetica, sans-serif;
+    border:none;
+    border-bottom:2px solid rgb(49, 178, 230);
+    background-color:transparent;
+    font-size:30px;
+    padding-bottom:1%;
+    padding-top:3.5%;
+    width:125%;
+    margin-bottom:5%;
+}
+.catin:focus
+{
+    border:none;
+    border-bottom:2px solid rgb(83, 141, 90);
+    outline:none;
+    color: rgb(83, 141, 90);
+}
+.catsub
+{
+    border:none;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing:2px;
+    font-weight:bold;
+    font-size:35px;
+    background-color:rgb(8, 228, 100);
+    color:white;
+    width:80px;
+    height:80px;
+    border-radius:50px;
+    cursor: pointer;
+}
+.catsub:hover
+{
+    opacity:0.8;
+}
+.form-category
+{
+    display:block;
+    float:left; 
+    background-color:white;
+    width:70%;
+    margin-top:1%;
+    padding:3%;
+    margin-left:1%;
+}
+.catremove
+{
+    border:none;
+    background-color:rgb(197, 20, 20);
+    color:white;
+    padding:5%;
+    border-radius:10px;
+    cursor:pointer;
+}
+.catedit
+{
+    border:none;
+    background-color:rgb(68, 197, 90);
+    color:white;
+    padding:5%;
+    border-radius:10px;
+    cursor:pointer;
+}
+.catremove:hover, .catedit:hover
+{
+    opacity:0.8;
+}
+.catremove:focus, .catedit:focus
+{
+    outline:none;
+}
+.cattxtbox
+{
+    display:block;
+    float:left;
+    width:70%;
+}
+.catbtn
+{
+    display:block;
+    float:right;
+}
+/*modals*/
+.modal-header
+{
+    border-bottom: none;
+    display:flex;
+}
+.modedithead
+{
+    margin:0 auto;
+    display:block;
+    color:rgb(8, 228, 100);
+    letter-spacing:4px; 
+}
+.removemodal
+{
+    background-color:rgb(148, 9, 9);
+}
+.removehead
+{
+    margin:0 auto;
+    display:block;
+    color:rgb(219, 32, 26);
+    letter-spacing:4px
+}
+.editclose
+{
+    margin:3%;
+}
+.editclose>button:focus
+{
+    outline:none;
+}
+.modal-body
+{
+    margin-top:2%;
+    margin-bottom:10%;
+}
+.editinput, .editmodalbtn
+{
+    text-align:center;
+}
+.editinput>input
+{
+    width:70%;
+    padding:3%;
+    border:1px solid rgb(74, 223, 111);
+    border-bottom:none;
+    color:rgb(110, 110, 110);
+    text-align:center;
+}
+.editinput>input:focus
+{
+    outline:none;
+}
+.editmodalbtn>input
+{
+    border:none;
+    background-color:rgb(74, 223, 111);
+    color:white;
+    width:70%;
+    padding:3%;
+    letter-spacing:2px;
+    font-size:20px;
+    font-weight:bold;
+    cursor:pointer;
+}
+.editmodalbtn>input:hover
+{
+    opacity:0.8;
+}
+.editmodalbtn>input:focus
+{
+    outline:none;
+}
+.removehead
+{
+    margin-bottom:10%;
+}
+.removebody
+{
+    background-color:white;
+}
+.yesremove
+{
+    width:49%;
+    display:inline-block;
+    background-color:rgb(138, 9, 31);
+    text-align:center;
+    color:white;
+}
+.removebody>a:hover
+{
+    text-decoration:none;
+    outline:none;
+    opacity:0.8;
+    color:white;
+}
+.removebody>a
+{
+    padding-top:2.3%;
+    padding-bottom:2.4%;
+    background-color:rgb(138, 9, 31);
+    color:white;
+}
+.noremove
+{
+    width:50.1%;
+    display:inline-block;
+}
+.noremove>button
+{
+    width:100%;
+    height:inherit;
+    margin-right:0;
+    display: block;
+    margin:0 auto;
+    border-radius:0;
+    padding-top:4%;
+    padding-bottom:4%;
+    background-color:white;
+    color:rgb(138, 9, 31);
+    border:none;
+    border-top:1px solid rgb(138, 9, 31);
+}
+.noremove>button:hover
+{
+    background-color:rgb(202, 154, 162);
+    color:white;
+    border-top:1px solid rgb(202, 154, 162);
+
+}
+/*other modals*/
+.invmodalclose
+{
+    margin:3%;
+}
+.invmodalclose:focus
+{
+    outline:none;
+}
+.invmodalhead
+{
+    margin:0 auto;
+    display:block;
+    letter-spacing:2px;
+    margin-bottom:5%;
+}
+.invmodalbody
+{
+    display:block;
+    margin:0 auto;
+    margin-bottom:10%;
+}
+.invqty, .invprice, .invsub
+{
+    margin-bottom:2%;
+}
+.invqty>label, .invprice>label
+{
+    width:130px;
+}
+.invqty>input, .invprice>input
+{
+    width:130px;
+    text-align:center;
+}
+.invsub>input
+{
+    width:265px;
+    padding-top:2%;
+    padding-bottom:2%;
+    letter-spacing:2px;
+    border:none;
+    background-color:rgb(15, 240, 101);
+    color:white;
+    font-weight:bold;
+    cursor:pointer;
+}
+.invsub>input:hover
+{
+    opacity:0.8;
+}
+.invsub>input:focus
+{
+    outline:none;
+}
+.removebody>a:hover
+{
+    color:white;
+    text-decoration:none;
+}
+/*transaction css*/
+.transdiv
+{
+    float:right;
+    width:75%;
+    margin-bottom:5%;
+    margin-top:3%;
+    border:none;
+}
+.transdivide{
+    border:none;
+    padding:5%;
+    width:800px;
+    background-color:rgb(218, 248, 252);
+    border-radius:10px;
+}
+.totalprice
+{
+    color:rgb(0, 131, 22);
+    font-weight:bold;
+    font-size:20px;
+}
+.centerthis
+{
+    text-align:center;
+}
+.orderstatus
+{
+    color:rgb(0, 4, 255);
+}
+.orderlabel
+{
+    margin-right:1%;
+    color:rgb(15, 17, 41);
+}
+.prodinfodiv
+{
+    color:blue;
+}
+/*sales interface css*/
+.salesdateinput
+{
+    margin-left:4%;
+    font-family:Arial, Helvetica, sans-serif;
+    padding:2%;
+    background-color:rgb(0, 202, 169);
+    border-radius:25px;
+    margin-bottom:2%;
+    margin-right:4%;
+}
+.datelabel
+{
+    letter-spacing:2px;
+    font-weight:bold;
+    font-size:18px;
+    color:white;
+}
+.dateinput
+{
+    border:none;
+    text-align:center;
+    padding:1%;
+    margin-left:2%;
+}
+[type="date"] 
+{
+    background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;
+}
+[type="date"]::-webkit-inner-spin-button 
+{
+    display: none;
+}
+[type="date"]::-webkit-calendar-picker-indicator 
+{
+    opacity: 0;
+}
+.reportcat
+{
+    height:inherit;
+    margin:0;
+    margin-left:4%;
+    padding:0;
+}
+.reportcat>input
+{
+    border:none;
+    width:30%;
+    margin:0;
+    border:none;
+    margin:1%;
+    height:200px;
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+    border-radius:25px;
+    cursor:pointer;
+}
+.reportcat>input:hover
+{
+    opacity:0.8;
+}
+.reportcat>input:focus
+{
+    outline:none;
+}
+.weekly
+{
+    background-color:rgb(255, 93, 160);
+}
+.monthly
+{
+    background-color:rgb(77, 148, 255);
+}
+.yearly
+{
+    background-color:rgb(255, 190, 11);
+}
+.replink
+{
+    margin-left:4%;
+}
+.reportlink
+{
+    margin-left:5%;
+    color:rgb(0, 127, 136);
+    text-decoration:underline;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top:0;
+    letter-spacing:1px;
+}
+reportlink:hover
+{
+    opacity:0.8;
+}
+reportlink:focus
+{
+    outline:none;
+}

@@ -1,0 +1,269 @@
+.regformdiv
+{
+    width:100%;
+    text-align:center;
+}
+.regform
+{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.regheader
+{
+    width:60%;
+}
+.formdiv
+{
+    width:50%;
+    margin-left:25%;
+    font-size:10px;
+}
+.regname
+{
+    width:80%;
+    border:none;
+    border-bottom:2px solid black;
+    padding-top:2%;
+    font-size:15px;
+}
+.regname:focus
+{
+    outline:none;
+}
+.regadd
+{
+    width:80%;
+    margin-top:5%;
+    border:none;
+    border-bottom:2px solid black;
+    padding-top:2%;
+    font-size:15px;
+}
+.regadd:focus
+{
+    outline:none;
+}
+.regemail
+{
+    width:80%;
+    margin-top:5%;
+    border:none;
+    border-bottom:2px solid black;
+    padding-top:2%;
+    font-size:15px;
+}
+.regemail:focus
+{
+    outline:none;
+}
+.reguser
+{
+    width:80%;
+    margin-top:5%;
+    border:none;
+    border-bottom:2px solid black;
+    padding-top:2%;
+    font-size:15px;
+}
+.reguser:focus
+{
+    outline:none;
+}
+.regpass
+{
+    width:80%;
+    margin-top:5%;
+    border:none;
+    border-bottom:2px solid black;
+    padding-top:2%;
+    font-size:15px;
+}
+.regpass:focus
+{
+    outline:none;
+}
+.regbutton
+{
+    margin-top:5%;
+    width:80%;
+    border:2px solid black;
+    padding-top:2%;
+    padding-bottom:2%;
+    font-size:20px;
+    background-color:transparent;
+    font-weight:bold;
+    letter-spacing:4px;
+    cursor: pointer;
+}
+.regheadtxt
+{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:30px;
+    letter-spacing:4px;
+}
+/*navbar css*/
+body
+{
+    margin:0;
+    padding: 0;
+}
+.logocontainer
+{
+    width:100%;
+    text-align:center;
+}
+.logocontainer h1
+{
+    margin: 75px;
+}
+.navlogo
+{
+    width:15%;
+    text-align:center;
+}
+.navbar
+{
+    text-align:center;
+    margin-bottom:5%;
+}
+.navbar ul
+{
+    font-family:Arial, Helvetica, sans-serif;
+    list-style-type:none;
+    letter-spacing:3px;
+    display:inline;
+    color:black;
+}
+.navbar li
+{
+    display:inline;
+    margin-right:5%;
+}
+.navbar a
+{
+    text-decoration:none;
+    color:black;
+}
+.navbar a:hover
+{
+    color:rgb(228, 143, 157);
+}
+.indexlink2
+{
+    margin-left:-3%;
+}
+/*footer css*/
+.footer
+{
+    background-color:black;
+    width:100%;
+    margin-top:10%;
+    height:300px;
+    display:block;
+    margin:0;
+    text-align:center;
+}
+.footercontent
+{
+    width:90%;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:10%;
+}
+.ft1, .ft2, .ft3
+{
+    color:white;
+    background-color:black;
+    width:25%;
+    margin-top:4%;
+    height:200px;
+    display: inline-block;
+    text-align:left;
+}
+.ft3
+{
+    margin-left:5%;
+}
+
+.ft1, .ft3
+{
+    float:left;
+}
+.ft1>h4
+{
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing:2px;
+    margin-left:1.2%;
+}
+.fblink
+{
+    border-bottom:1px solid white;
+    padding-bottom:5%;
+}
+.fblink>a
+{
+    display:inline-block;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    text-decoration:none;
+    font-size:12px;
+    margin-top:3%;
+    margin-left:2%;
+}
+.fblink>a:hover
+{
+    text-decoration:underline;
+}
+.fblink>img
+{
+    width:10%;
+    float:left;
+}
+.footlogreg
+{
+
+    margin-top:5%;
+    margin-bottom:5%;
+}
+.footlog, .footreg
+{
+    display:inline-block;
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+    border:1px solid white;
+    border-radius:25px;
+    padding-top:2%;
+    padding-bottom:2%;
+    padding-left:5%;
+    padding-right:5%;
+    text-align:center;
+}
+.footlog:hover, .footreg:hover
+{
+    background-color:white;
+    color:black;
+}
+.navlistfoot>ul
+{
+    list-style-type:none;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing:2px;
+}
+.navlistfoot>ul>a, .navlistfoot>ul>li
+{
+    color:white;
+    text-decoration:none;
+    line-height:30px;
+}
+.fthelphead
+{
+    font-weight:normal;
+    letter-spacing:2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cntctlink
+{
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:12px;
+    letter-spacing:2px;
+}
